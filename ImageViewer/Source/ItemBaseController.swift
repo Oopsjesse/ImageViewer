@@ -52,7 +52,7 @@ open class ItemBaseController<T: UIView>: UIViewController, ItemController, UIGe
 
     /// INTERACTIONS
     fileprivate var singleTapRecognizer: UITapGestureRecognizer?
-    fileprivate var longPressRecognizer: UILongPressGestureRecognizer?
+    open var longPressRecognizer: UILongPressGestureRecognizer?
     fileprivate let doubleTapRecognizer = UITapGestureRecognizer()
     fileprivate let swipeToDismissRecognizer = UIPanGestureRecognizer()
 
